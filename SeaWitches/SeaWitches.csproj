@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DataBase\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\contactform\contactform.php" />
+    <None Include="wwwroot\Content\contactform\Readme.txt" />
+    <None Include="wwwroot\Content\css\style.css" />
+    <None Include="wwwroot\Content\img\app-bg.png" />
+    <None Include="wwwroot\Content\img\apple-touch-icon.png" />
+    <None Include="wwwroot\Content\img\arrow1.png" />
+    <None Include="wwwroot\Content\img\arrow2.png" />
+    <None Include="wwwroot\Content\img\favicon.png" />
+    <None Include="wwwroot\Content\img\intro01.png" />
+    <None Include="wwwroot\Content\img\intro02.png" />
+    <None Include="wwwroot\Content\img\intro03.png" />
+    <None Include="wwwroot\Content\img\item-01.png" />
+    <None Include="wwwroot\Content\img\item-02.png" />
+    <None Include="wwwroot\Content\img\mobile.png" />
+    <None Include="wwwroot\Content\js\main.js" />
+    <None Include="wwwroot\Content\lib\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\Content\lib\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\Content\lib\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\Content\lib\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\Content\lib\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\Content\lib\easing\easing.js" />
+    <None Include="wwwroot\Content\lib\easing\easing.min.js" />
+    <None Include="wwwroot\Content\lib\jquery\jquery.js" />
+    <None Include="wwwroot\Content\lib\jquery\jquery.min.js" />
+    <None Include="wwwroot\Content\lib\php-mail-form\validate.js" />
+  </ItemGroup>
+
+</Project>
