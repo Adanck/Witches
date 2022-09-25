@@ -42,4 +42,14 @@
     <None Include="wwwroot\Content\lib\php-mail-form\validate.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DataBase\WitchesData.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

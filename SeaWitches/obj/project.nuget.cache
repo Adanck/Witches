@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "0AEg2Xfs6xkskM6SQl5XGgeGkr4FLmgYeS8ONttpd2HshVmnbRaM56IfM+kX5PkMfx2sWotIO6jxD0V71ViX+A==",
+  "dgSpecHash": "I7Nb9bzW+axA/27X7VyVIXJg5uTxudI7drnJe3bca+UCqTXHwQUCAhlSoRsS6zEpXNZqZqf7qmd1JgYJWx45xw==",
   "success": true,
   "projectFilePath": "C:\\Users\\adan_\\source\\repos\\Witches\\SeaWitches\\SeaWitches.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\adan_\\.nuget\\packages\\microsoft.data.sqlite\\6.0.9\\microsoft.data.sqlite.6.0.9.nupkg.sha512",
+    "C:\\Users\\adan_\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.9\\microsoft.data.sqlite.core.6.0.9.nupkg.sha512",
+    "C:\\Users\\adan_\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\adan_\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\adan_\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\adan_\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\adan_\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }
