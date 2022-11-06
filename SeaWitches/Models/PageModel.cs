@@ -22,10 +22,10 @@ namespace SeaWitches.Models
         public List<SpecificObjectives>? SpecificObjectives { get; set; }
 
         [DataMember]
-        public ContactsModel? Contacts { get; set; }
+        public List<WorkAreasModel>? WorkAreas { get; set; }
 
         [DataMember]
-        public WorkAreas? WorkAreas { get; set; }
+        public ContactsModel? Contacts { get; set; }
 
         [DataMember]
         public WorkTeam? WorkTeam { get; set; }

@@ -146,6 +146,37 @@ namespace SeaWitches.DataAcces
             }
         }
 
+        public List<WorkAreasModel> GetWorkAreas() {
+            try
+            {
+                var response = new List<WorkAreasModel>();
+                using (SqliteConnection sql_con = new SqliteConnection(GetConnectionString()))
+                {
+                    using (SqliteCommand sql_cmd = new SqliteCommand())
+                    {
+                        sql_cmd.CommandText = "select * from WorkAreas";
+                        sql_cmd.Connection = sql_con;
+                        sql_cmd.Connection.Open();
+                        sql_cmd.Prepare();
+
+                        SqliteDataReader reader = sql_cmd.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            var area = new WorkAreasModel();
+                            area.Description = reader["Name"].ToString();
+                            response.Add(area);
+                        }
+                    }
+                }
+                return response;
+            }
+            catch (SqliteException ex)
+            {
+                throw ex;
+            }
+        }
+
         public HomeModel GetHome()
         {
             try
@@ -231,6 +262,7 @@ namespace SeaWitches.DataAcces
             response.Blogs = GetBlogs();
             response.Projects = GetProjects();
             response.SpecificObjectives = GetObjectivesSpecific();
+            response.WorkAreas = GetWorkAreas();
             return response;
         }
     }
