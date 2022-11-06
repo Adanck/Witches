@@ -9,6 +9,7 @@ namespace SeaWitches.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private IHomeService homeService;
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -17,8 +18,8 @@ namespace SeaWitches.Controllers
 
         public IActionResult Index()
         {
-            this.homeService.GetHome();
-            return View();
+            var model = this.homeService.GetAllPage();
+            return View(model);
         }
 
         public IActionResult Privacy()

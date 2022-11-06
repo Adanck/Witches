@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\adan_\source\repos\Witches\SeaWitches\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-11-06T17:58:03.9726382Z;True|2022-11-06T10:08:43.4710718-06:00;True|2022-11-06T10:05:10.2514643-06:00;True|2022-11-06T10:00:30.5241706-06:00;True|2022-11-05T17:21:30.7722038-06:00;True|2022-11-05T17:21:22.1622738-06:00;True|2022-11-05T16:25:22.2372800-06:00;True|2022-11-03T02:10:07.9094168-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -9,9 +9,15 @@ namespace SeaWitches.Services.HomeService
         public HomeService() { 
             this.homeDataAccess = new HomeDataAccess();
         }
+
         public HomeModel GetHome()
         {
             return this.homeDataAccess.GetHome();
+        }
+
+        public PageModel GetAllPage()
+        {
+            return this.homeDataAccess.GetAllPage();
         }
     }
 }
